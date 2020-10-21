@@ -111,6 +111,24 @@ future pull requests should be linted.
 
 ### Automated tests
 
+Chapter 18 of Scopatz and Huff ("Effective Computation in Physics", 2015, O'Reilly) covers testing,
+as does the Software Capentry lesson on [Python Testing and Continuous
+Integration](http://carpentries-incubator.github.io/python-testing/). Before automating testing,
+you will need to create some tests that can be run using some testing framework. This is
+described elsewhere (TODO: describe this elsewhere). If using pytest, it should be possible
+to run all tests on the command line with the pytest command.
+
+Once this is done, fully automate running tests as part of a CI workflow is as simple as
+creating a file and enabling the right webhook in github. See http://carpentries-incubator.github.io/python-testing/08-ci/index.html
+or the TravisCI help.
+
+### Other things that can be automated
+
+* Need for code review and sign-off
+* Coverage
+* Documentation build and deployment
+* Release creation
+
 ## Issues
 
 Probably need some discussion of these.
