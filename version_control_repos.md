@@ -133,4 +133,8 @@ or the TravisCI help.
 
 Probably need some discussion of these.
 
- 
+# Tasks:
+* Make a change using a pull request
+* Review a partner's pull request
+* Set up automation for linting, testing, or something else
+* Create some contributor's guidance.
