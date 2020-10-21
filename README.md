@@ -34,11 +34,11 @@ path.
 
 1. What's interesting about your software?
 2. A stand-alone package or part of something else?
-3. Version control: getting organised.
+3. [Version control: getting organised](version_control.md).
 4. Applying a software license.
 5. Got any tests?
 6. Types of documentation.
-7. Using version control to work with others.
+7. [Using version control to work with others](version_control_repos.md).
 8. Reviewing your code
 9. Automating tests and running them regularly.
 10. Documenting installation and use.
